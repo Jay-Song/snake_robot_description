@@ -8,6 +8,7 @@
         <param name="publish_multiecho" value="true" />
         <!-- <param name="angle_min" value="-1.5" /> -->
         <!-- <param name="angle_max" value="1.5" /> -->
-        <remap from="/scan" to="/heroehs/snake_robot/scan" />
+        <!-- <remap from="/scan" to="/heroehs/snake_robot/scan" /> -->
+        <remap from="/last" to="/heroehs/snake_robot/scan" />
     </node>
 </launch>
